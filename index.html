@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semesta Wedding Organizer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="public/logo.png" alt="Semesta Wedding Logo">
+            </a>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home Page</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#package">Package</a></li>
+                    <li><a href="#feedback">Feedback</a></li>
+                    <li><a href="#booking">Reservasi</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-actions">
+                <a href="#login" class="btn-login">Login</a>
+                <a href="#signup" class="btn-signup">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-text">
+                    <h1>Semesta Wedding Organizer</h1>
+                    <p>Platform booking Wedding Organizer terpercaya dengan sistem reservasi online, paket transparan, dan pembayaran aman.</p>
+                    <a href="#booking" class="btn-primary">Booking Now</a>
+                </div>
+                <div class="hero-image">
+                    <img src="public/11.png" alt="Wedding Couple">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>Mengapa Memilih Kami?</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="public/12.png" alt="Wedding Couple Illustration">
+                    </div>
+                    <div class="about-features">
+                        <ul>
+                            <li>
+                                <span class="icon">✓</span>
+                                <p>Menyediakan layanan perencanaan dan penyelenggaraan pernikahan yang mudah diakses dan terjangkau.</p>
+                            </li>
+                            <li>
+                                <span class="icon">✓</span>
+                                <p>Menghubungkan calon pengantin dengan vendor profesional di berbagai bidang pernikahan.</p>
+                            </li>
+                            <li>
+                                <span class="icon">✓</span>
+                                <p>Menyajikan pengalaman pernikahan yang interaktif, menyenangkan, dan fleksibel sesuai kemauan pasangan.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="package" class="package-section">
+            <div class="container">
+                <h2>Our Package</h2>
+                <div class="package-tabs">
+                    <button class="tab" data-package="silver">Silver</button>
+                    <button class="tab active" data-package="gold">Gold</button>
+                    <button class="tab" data-package="platinum">Platinum</button>
+                </div>
+                
+                <div class="package-grid">
+                    <article class="package-card" data-package="gold"><img src="https://picsum.photos/400/300?random=1" alt="Royal Blossom"><div class="package-card-content"><h3>Royal Blossom</h3><p>Nikmati suasana megah layaknya bangsawan dengan dekorasi mewah dan pelayanan premium.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+                    <article class="package-card" data-package="gold"><img src="https://picsum.photos/400/300?random=2" alt="Luxury Night Affair"><div class="package-card-content"><h3>Luxury Night Affair</h3><p>Warnai malam istimewa dengan nuansa luxury modern dan lampu hias yang indah menciptakan suasana romantis.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+                    <article class="package-card" data-package="gold"><img src="https://picsum.photos/400/300?random=3" alt="Majestic Ballroom Gala"><div class="package-card-content"><h3>Majestic Ballroom Gala</h3><p>Pesta dansa yang tak terlupakan di dalam ballroom megah dengan hiasan kristal dan tata cahaya dramatis.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+                    <article class="package-card" data-package="gold"><img src="https://picsum.photos/400/300?random=4" alt="Golden Hour Vineyard"><div class="package-card-content"><h3>Golden Hour Vineyard</h3><p>Rayakan cinta di tengah kebun anggur saat matahari terbenam, menciptakan suasana hangat dan mempesona.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+                    <article class="package-card" data-package="gold"><img src="https://picsum.photos/400/300?random=5" alt="Opulent City Lights"><div class="package-card-content"><h3>Opulent City Lights</h3><p>Pernikahan modern di rooftop dengan pemandangan kota yang gemerlap sebagai latar belakang.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+                    <article class="package-card" data-package="gold"><img src="https://picsum.photos/400/300?random=6" alt="Gilded Manor Celebration"><div class="package-card-content"><h3>Gilded Manor Celebration</h3><p>Suasana klasik dan mewah di sebuah rumah bangsawan dengan detail arsitektur yang menawan.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+
+                    <article class="package-card hidden" data-package="silver"><img src="https://picsum.photos/400/300?random=7" alt="Garden Romance"><div class="package-card-content"><h3>Garden Romance</h3><p>Rayakan momen berharga di tengah alam yang menawan dengan dekorasi elegan dan suasana yang romantis.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+                    <article class="package-card hidden" data-package="silver"><img src="https://picsum.photos/400/300?random=8" alt="Elegant White Garden"><div class="package-card-content"><h3>Elegant White Garden</h3><p>Rayakan kebahagiaan dalam kebun putih dengan dekorasi minimalis dan elegan ditengah alam.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+                    <article class="package-card hidden" data-package="silver"><img src="https://picsum.photos/400/300?random=9" alt="Rustic Barn Charm"><div class="package-card-content"><h3>Rustic Barn Charm</h3><p>Suasana pedesaan yang hangat dan akrab di sebuah lumbung yang telah dihias dengan cantik.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+                    <article class="package-card hidden" data-package="silver"><img src="https://picsum.photos/400/300?random=10" alt="Minimalist Urban Chic"><div class="package-card-content"><h3>Minimalist Urban Chic</h3><p>Pernikahan simpel dan modern di galeri seni atau ruang industri dengan sentuhan artistik.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+                    <article class="package-card hidden" data-package="silver"><img src="https://picsum.photos/400/300?random=11" alt="Bohemian Dream"><div class="package-card-content"><h3>Bohemian Dream</h3><p>Gaya bebas dan artistik dengan elemen alam, macrame, dan bunga liar untuk jiwa yang bebas.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+                    <article class="package-card hidden" data-package="silver"><img src="https://picsum.photos/400/300?random=12" alt="Intimate Courtyard Soiree"><div class="package-card-content"><h3>Intimate Courtyard Soiree</h3><p>Perayaan kecil yang hangat di halaman belakang dengan lampu gantung dan suasana akrab.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+                    
+                    <article class="package-card hidden" data-package="platinum"><img src="https://picsum.photos/400/300?random=13" alt="Seaside Promise"><div class="package-card-content"><h3>Seaside Promise</h3><p>Ucapkan janji suci di pinggir pantai dengan latar ombak dan langit biru untuk pelaminan outdoor.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+                    <article class="package-card hidden" data-package="platinum"><img src="https://picsum.photos/400/300?random=14" alt="Fairytale Castle Vows"><div class="package-card-content"><h3>Fairytale Castle Vows</h3><p>Wujudkan mimpi pernikahan ala negeri dongeng di sebuah kastil megah yang bersejarah.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+                    <article class="package-card hidden" data-package="platinum"><img src="https://picsum.photos/400/300?random=15" alt="Exclusive Island Escape"><div class="package-card-content"><h3>Exclusive Island Escape</h3><p>Pernikahan privat di sebuah pulau tropis, hanya untuk Anda dan tamu-tamu terdekat.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+                    <article class="package-card hidden" data-package="platinum"><img src="https://picsum.photos/400/300?random=16" alt="Mountaintop Serenity"><div class="package-card-content"><h3>Mountaintop Serenity</h3><p>Janji suci di puncak gunung dengan pemandangan menakjubkan dan udara yang sejuk.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+                    <article class="package-card hidden" data-package="platinum"><img src="https://picsum.photos/400/300?random=17" alt="Grand Heritage Palace"><div class="package-card-content"><h3>Grand Heritage Palace</h3><p>Kemewahan tak tertandingi di istana bersejarah dengan pelayanan kelas atas dan detail ornamen yang indah.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+                    <article class="package-card hidden" data-package="platinum"><img src="https://picsum.photos/400/300?random=18" alt="Celestial Starry Night"><div class="package-card-content"><h3>Celestial Starry Night</h3><p>Pesta di bawah bintang-bintang di observatorium atau lokasi dengan atap kaca yang spektakuler.</p><a href="#" class="btn-details">LEARN MORE</a></div></article>
+                </div>
+            </div>
+        </section>
+
+        <section id="feedback" class="testimonials-section">
+            <div class="container">
+                <h2>Our happy clients</h2>
+                <div class="testimonials-slider">
+                    <button class="slider-arrow" id="prev-slide">←</button>
+                    <div class="slider-container">
+                        <div class="testimonials-wrapper">
+                            <article class="testimonial-card">
+                                <blockquote>"Pernikahan kami berjalan sempurna berkat tim dari Semesta! Dari perencanaan awal hingga hari bahagia, semuanya berjalan lancar dan tanpa stres."</blockquote>
+                                <div class="testimonial-author">
+                                    <img src="https://i.imgur.com/o5uH8C5.jpg" alt="Renjana Ningrat">
+                                    <cite>Renjana & Dimas</cite>
+                                </div>
+                            </article>
+                            <article class="testimonial-card">
+                                <blockquote>"Pelayanan luar biasa! Tim Semesta sangat tanggap dan terkoordinasi. Tim profesional yang mengelola setiap detail tanpa cela!"</blockquote>
+                                <div class="testimonial-author">
+                                    <img src="https://i.imgur.com/8xDtD3C.jpg" alt="Jonathan Reed">
+                                    <cite>Jonathan & Amanda</cite>
+                                </div>
+                            </article>
+                            <article class="testimonial-card">
+                                <blockquote>"Sangat direkomendasikan! Konsep kreatif mereka mengubah pernikahan impian kami menjadi kenyataan. Terima kasih Semesta Wedding!"</blockquote>
+                                <div class="testimonial-author">
+                                    <img src="https://i.imgur.com/sVv4rzf.jpg" alt="Sarah Chen">
+                                    <cite>Michael & Sarah</cite>
+                                </div>
+                            </article>
+                            <article class="testimonial-card">
+                                <blockquote>"Awalnya kami ragu, tapi Semesta membuktikan kualitasnya. Komunikasi lancar dan semua vendor yang direkomendasikan sangat berkualitas."</blockquote>
+                                <div class="testimonial-author">
+                                    <img src="https://i.imgur.com/ktBOdY7.jpg" alt="David Lee">
+                                    <cite>David & Jessica</cite>
+                                </div>
+                            </article>
+                            <article class="testimonial-card">
+                                <blockquote>"Fleksibel dan sangat membantu. Tim mampu menyesuaikan paket dengan budget kami tanpa mengurangi kualitas. Hasilnya melebihi ekspektasi."</blockquote>
+                                <div class="testimonial-author">
+                                    <img src="https://i.imgur.com/5D8xm2G.jpg" alt="Emily Carter">
+                                    <cite>Adrian & Emily</cite>
+                                </div>
+                            </article>
+                            <article class="testimonial-card">
+                                <blockquote>"Untuk acara yang sekali seumur hidup, kami tidak salah pilih. Semesta Wedding membuat semuanya terasa mudah dan menyenangkan. Luar biasa!"</blockquote>
+                                <div class="testimonial-author">
+                                    <img src="https://i.imgur.com/dXtYl9q.jpg" alt="Ben Collins">
+                                    <cite>Ben & Olivia</cite>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <button class="slider-arrow" id="next-slide">→</button>
+                </div>
+            </div>
+        </section>    
+
+        <section id="booking" class="booking-section">
+            <div class="container">
+                <div class="booking-content">
+                    <div class="calendar-widget">
+                        <table class="calendar-table">
+                            <caption id="calendar-month-year">Oktober 2025</caption>
+                            <thead>
+                                <tr><th>M</th><th>S</th><th>S</th><th>R</th><th>K</th><th>J</th><th>S</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+                                <tr><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td></tr>
+                                <tr><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td></tr>
+                                <tr><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td></tr>
+                                <tr><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td class="empty"></td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="booking-form">
+                        <h2>Book Your Wedding Date</h2>
+                        <p>Pilih tanggal di kalender, lalu lengkapi formulir di bawah ini untuk memulai perencanaan.</p>
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="wedding-date">Tanggal Pernikahan</label>
+                                <input type="date" id="wedding-date" name="wedding_date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Nama Lengkap</label>
+                                <input type="text" id="name" name="name" placeholder="Tulis nama anda" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="package-select">Package</label>
+                                <select id="package-select" name="package" required>
+                                    <option value="">Pilih Paket</option>
+                                    <option value="silver">Silver</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="platinum">Platinum</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn-submit">Atur Jadwal Konsultasi</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="public/logo.png" alt="Semesta Wedding Logo">
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#package">Our Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="https://wa.me/628123456789" target="_blank">Whatsapp</a></li>
+                        <li><a href="mailto:info@semesta.com">Email</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect with us</h4>
+                    <div class="social-links">
+                        <a href="#">IG</a> 
+                        <a href="#">FB</a> 
+                        <a href="#">TT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Semesta Wedding. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+
+</body>
+</html>
